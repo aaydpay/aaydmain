@@ -1,0 +1,172 @@
+# =============================================================================
+#  当命中以下规则的流量全部走DIRECT
+#  格式：DOMAIN / DOMAIN-SUFFIX / DOMAIN-KEYWORD
+# =============================================================================
+
+
+# -----------------------------------------------------------------------------
+#  A. DOMAIN-KEYWORD（关键字匹配）
+# -----------------------------------------------------------------------------
+DOMAIN-KEYWORD,ln-gst
+DOMAIN-KEYWORD,ceair
+DOMAIN-KEYWORD,china-eastern
+DOMAIN-KEYWORD,douyin
+DOMAIN-KEYWORD,snssdk
+DOMAIN-KEYWORD,amemv
+DOMAIN-KEYWORD,byteimg
+DOMAIN-KEYWORD,pstatp
+DOMAIN-KEYWORD,toutiao
+DOMAIN-KEYWORD,volcw
+DOMAIN-KEYWORD,volces
+DOMAIN-KEYWORD,bytedance
+DOMAIN-KEYWORD,bdtj
+DOMAIN-KEYWORD,dewu
+DOMAIN-KEYWORD,dmall
+
+
+# -----------------------------------------------------------------------------
+#  B. DOMAIN（精确域名）
+# -----------------------------------------------------------------------------
+# 货拉拉 API
+DOMAIN,qapi.huolala.cn
+DOMAIN,uapi.huolala.cn
+DOMAIN,openapi.huolala.cn
+DOMAIN,open.huolala.cn
+DOMAIN,openapi-pre.huolala.cn
+DOMAIN,open-pre.huolala.cn
+
+# 辽宁高速通
+DOMAIN,app.ln-gst.com
+DOMAIN,rabbitmq.ln-gst.com
+
+# 北京环球度假区
+DOMAIN,mscrm-eventstracking.universalbeijingresort.com
+
+
+# -----------------------------------------------------------------------------
+#  C. DOMAIN-SUFFIX（后缀匹配）
+# -----------------------------------------------------------------------------
+
+# --- C1. 货拉拉 / 出行 ---
+DOMAIN-SUFFIX,huolala.cn
+DOMAIN-SUFFIX,huolala.com
+DOMAIN-SUFFIX,huolala.co
+DOMAIN-SUFFIX,ln-gst.com
+DOMAIN-SUFFIX,ceair.com
+DOMAIN-SUFFIX,china-eastern.com
+DOMAIN-SUFFIX,easternmiles.com
+DOMAIN-SUFFIX,muairlines.com
+DOMAIN-SUFFIX,universalbeijingresort.com
+DOMAIN-SUFFIX,universal-resort.com
+DOMAIN-SUFFIX,unit.amap.com
+DOMAIN-SUFFIX,ly.com
+DOMAIN-SUFFIX,jr.tuniu.com
+DOMAIN-SUFFIX,cashier.tuniu.com
+DOMAIN-SUFFIX,zztfly.com
+
+# --- C2. 抖音 / 字节跳动 ---
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,bytegecko.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,ecombdapi.com
+DOMAIN-SUFFIX,douyinec.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,bytecdntp.com
+DOMAIN-SUFFIX,toutiaocloud.com
+DOMAIN-SUFFIX,toutiaopage.com
+DOMAIN-SUFFIX,bytealgo.com
+DOMAIN-SUFFIX,bytemarketing.com
+DOMAIN-SUFFIX,byteicdn.com
+DOMAIN-SUFFIX,pay.snssdk.com
+DOMAIN-SUFFIX,api.pay.snssdk.com
+DOMAIN-SUFFIX,ulogs.byteoversea.com
+DOMAIN-SUFFIX,volcengineapi.com
+DOMAIN-SUFFIX,bytepay.com
+
+# --- C3. 得物 / 多点 ---
+DOMAIN-SUFFIX,shizhuang-inc.com
+DOMAIN-SUFFIX,dmall.com
+DOMAIN-SUFFIX,dmallcdn.com
+DOMAIN-SUFFIX,dmall.com.cn
+
+# --- C4. 电商 / 商超 ---
+DOMAIN-SUFFIX,api-hyper.walmartmobile.cn
+DOMAIN-SUFFIX,m.ctrip.com
+DOMAIN-SUFFIX,cart-hydapp.feiniu.com
+DOMAIN-SUFFIX,app.mixcapp.com
+DOMAIN-SUFFIX,secure.ctrip.com
+DOMAIN-SUFFIX,api.qiandao.com
+DOMAIN-SUFFIX,nbabch5.jslink.com
+DOMAIN-SUFFIX,api-sams.walmartmobile.cn
+DOMAIN-SUFFIX,app.bac365.com
+DOMAIN-SUFFIX,mobile.yangkeduo.com
+DOMAIN-SUFFIX,order.duolabao.com
+DOMAIN-SUFFIX,qr.chinaums.com
+DOMAIN-SUFFIX,api-mall.yst.com.cn
+DOMAIN-SUFFIX,n.ofpay.com
+DOMAIN-SUFFIX,app.crv.com.cn
+DOMAIN-SUFFIX,mall.19wo.cn
+DOMAIN-SUFFIX,acs.m.taobao.com
+DOMAIN-SUFFIX,trade-api.retail.mi.com
+DOMAIN-SUFFIX,fz-hlnn.founderyt.com
+DOMAIN-SUFFIX,h2.vipstatic.com
+DOMAIN-SUFFIX,service.cdfhnmall.com
+DOMAIN-SUFFIX,nb.quanqiuwa.com
+DOMAIN-SUFFIX,mjh.91kd.com.cn
+DOMAIN-SUFFIX,gateway.v2.jiuxiaoer.cn
+DOMAIN-SUFFIX,fjpayv2.fanjiaxing.com
+DOMAIN-SUFFIX,mapi.vip.com
+DOMAIN-SUFFIX,api.yonghuivip.com
+DOMAIN-SUFFIX,cloud.wenyu6.com
+DOMAIN-SUFFIX,mobile.bl.com
+DOMAIN-SUFFIX,mapi.appvipshop.com
+DOMAIN-SUFFIX,m.mi.com
+
+# --- C5. 京东 / 阿里 / 支付 ---
+DOMAIN-SUFFIX,mpay.m.jd.com
+DOMAIN-SUFFIX,api.m.jd.com
+DOMAIN-SUFFIX,service.vapp.jd.com
+DOMAIN-SUFFIX,jdpaycert.jd.com
+DOMAIN-SUFFIX,hpay.jd.com
+DOMAIN-SUFFIX,plogin.m.jd.com
+DOMAIN-SUFFIX,payc.m.jd.com
+DOMAIN-SUFFIX,mclient.alipay.com
+DOMAIN-SUFFIX,openapi.alipay.com
+DOMAIN-SUFFIX,pay.qq.com
+DOMAIN-SUFFIX,api.ucashier.mipay.com
+DOMAIN-SUFFIX,payment.vmall.com
+DOMAIN-SUFFIX,m.mideaepay.com
+DOMAIN-SUFFIX,service.jifenfu.net
+DOMAIN-SUFFIX,pay.trx.helipay.com
+DOMAIN-SUFFIX,bpayment.ch.com
+DOMAIN-SUFFIX,prod-mtop-pass.linkheer.com
+DOMAIN-SUFFIX,appcashier256.95516.com
+DOMAIN-SUFFIX,appcashier.95516.com
+DOMAIN-SUFFIX,mpay.meituan.com
+DOMAIN-SUFFIX,pay.meituan.com
+
+# --- C6. 银行 ---
+DOMAIN-SUFFIX,wap.psbc.com
+DOMAIN-SUFFIX,xc.ebanking3.ccb.com.cn
+DOMAIN-SUFFIX,mobile.abchina.com
+DOMAIN-SUFFIX,pay.abchina.com
+DOMAIN-SUFFIX,b2c.icbc.com.cn
+DOMAIN-SUFFIX,nper.cmbc.com.cn
+DOMAIN-SUFFIX,mobile.ccb.com
+DOMAIN-SUFFIX,pccardepccpay.paas.cmbchina.com
+DOMAIN-SUFFIX,b.pingan.com.cn
+DOMAIN-SUFFIX,rmb.pingan.com.cn
+DOMAIN-SUFFIX,ebank.pingan.com.cn
+DOMAIN-SUFFIX,ebank.orangebank.com.cn
+
+
+# =============================================================================
+#  规则结束
+# =============================================================================
